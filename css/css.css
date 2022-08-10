@@ -1,0 +1,106 @@
+            
+    body{
+     background:#4d9995 !important;
+     font-family: 'Tajawal', sans-serif!important;
+    }        
+ .container{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background: white;
+border-radius: 14px;
+ }           
+#photo {
+                    border: 2px solid #4d9995;
+                    position: relative;
+                    overflow: hidden;
+               }
+.tobecup{
+     width: 100%;
+  
+}
+.Take-Screenshot{
+margin: 0 auto;}
+.the-name{
+position: absolute;
+top: 75.5%;
+/* left: 32%; */
+font-size: 1.5em;
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+cursor: move;
+}
+.disabled{
+opacity: 0.5;
+pointer-events: none;
+
+
+
+}
+
+/* @media screen and (min-width: 480px) {
+     .the-name{
+       font-size: .8rem;
+          }
+   }
+@media screen and (min-width: 720px) {
+     .the-name{
+       font-size: 1.4rem;
+          }
+   }
+@media screen and (min-width: 1200px) {
+     .the-name{
+       font-size: 1.6rem;
+          }
+   } */
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .the-name{
+          font-size: .5rem;
+             }
+      }
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+     .the-name{
+          font-size: .8rem;
+             }
+      }
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+     .the-name{
+          font-size: 1rem;
+             }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+     .the-name{
+          font-size: 1.2rem;
+             }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+     .the-name{
+          font-size: 1.5rem;
+             }
+
+
+}
